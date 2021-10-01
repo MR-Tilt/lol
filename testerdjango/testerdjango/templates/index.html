@@ -1,14 +1,32 @@
+{% load static %}
+
 <!DOCTYPE html>
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href={% static 'main.css' %}>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>наш сайт</title>
 </head>
+
 <body>
-    <h3>мой сайт</h3>
-    <p>Сайт балдежный</p>
+    <div id='x'>
+        <div class="head_butt"><a href="inform">О сайте</a></div>
+        <div class="head_butt"><a href="">Магазин</a></div>
+        <div class="head_butt"><a href="">Помощь</a></div>
+    
+    </div>
+    <pre id=y>
+        Есть такой человек
+        Максим Киянко
+        И он крип крипочек
+        Которому нету смысла игра
+        Как оворил великий РАМЗЕС
+        Он сливает катки на звесе 
+        И тем самым портит жиз
+    </pre>
     <a href="/about"> перейти в биографию </a>
+    
 </body>
 </html>

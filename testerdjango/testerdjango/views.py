@@ -6,3 +6,6 @@ def index(request):
 
 def index2(request):
     return render(request, 'lol.html')
+
+def index3(request):
+    return render(request, 'inform.html')

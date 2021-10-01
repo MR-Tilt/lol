@@ -1,0 +1,52 @@
+* {
+    margin: 0px;
+    text-align:center;
+
+}
+body {
+    background-color: rgba(238, 247, 252, 0.911);
+}
+#x {
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80%;
+    background-color: black;
+    color:ghostwhite;
+    text-align:center;
+    height: 100px ;
+
+}
+#x:hover{ 
+   background-color: rgb(126, 120, 120); 
+}
+
+#y {
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80%;
+    background-color: rgb(255, 255, 255);
+    text-align:center;
+    
+}
+
+a:link {
+    color: #FF0000;
+ }
+ 
+ /* просмотренная ссылка */
+ a:visited {
+    color: #00FF00;
+ }
+ 
+ /* наведение мыши на ссылку */
+ a:hover {
+    color: #FF00FF;
+ }
+ #ii {
+     font-size: 1000px;
+ }
+
+ .S {
+     font-size: 1000px;
+     text-align:center;
+ }
