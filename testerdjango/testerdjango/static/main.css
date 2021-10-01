@@ -1,11 +1,13 @@
 * {
     margin: 0px;
     text-align:center;
+   
 
 }
 body {
     background-color: rgba(238, 247, 252, 0.911);
 }
+
 #x {
     margin-left: 10%;
     margin-right: 10%;
@@ -14,6 +16,11 @@ body {
     color:ghostwhite;
     text-align:center;
     height: 100px ;
+
+    display: flex;
+    flex-direction:row;
+    justify-content:space-around;
+    align-items: center;
 
 }
 #x:hover{ 
@@ -42,11 +49,34 @@ a:link {
  a:hover {
     color: #FF00FF;
  }
- #ii {
-     font-size: 1000px;
- }
+
 
  .S {
-     font-size: 1000px;
+     font-size: 100px;
      text-align:center;
  }
+
+ .block {
+     height: 90%;
+     width: calc(100% - 10px);
+     background-color:rgba(162, 217, 247, 0.911) ;
+     margin: 10px;
+
+ }
+ .contentblock {
+     width: 80%;
+     margin-left: 10%;
+    margin-right: 10%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+ }
+
+ .block img {
+     height: 100px;
+     width: 100px;
+
+ }
+
+
+
+ 

@@ -15,17 +15,21 @@
         <div class="head_butt"><a href="inform">О сайте</a></div>
         <div class="head_butt"><a href="">Магазин</a></div>
         <div class="head_butt"><a href="">Помощь</a></div>
+        <div class="">gggggg</div>
+        
     
     </div>
-    <pre id=y>
-        Есть такой человек
-        Максим Киянко
-        И он крип крипочек
-        Которому нету смысла игра
-        Как оворил великий РАМЗЕС
-        Он сливает катки на звесе 
-        И тем самым портит жиз
-    </pre>
+    <div class="contentblock">
+    {% for i in count %}
+        <div class="block">
+            <img src="{% static '111.jpg' %}" alt="">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At tempore mollitia placeat architecto sed expedita ut esse impedit, adipisci delectus quo assumenda hic beatae aut cumque, et reprehenderit? Commodi, consequatur.</p>
+            <a href="product/">Продукция</a>
+            
+        </div>
+    {% endfor %}
+    </div>
+
     <a href="/about"> перейти в биографию </a>
     
 </body>
